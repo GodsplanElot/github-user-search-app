@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col items-center p-6 bg-gray-900 text-white">
-      <h1 className="text-3xl font-bold mb-6">devfinder</h1>
+      <h1 className="text-3xl font-bold mb-6">devinder</h1>
       <SearchBar onSearch={fetchGitHubUser} />
       <div className="mt-6">
         <UserCard user={user} />
